@@ -1,0 +1,83 @@
+
+body{
+    background-color: lightskyblue;
+    text-align: center;
+}
+.row{
+    float: left;
+    margin: 100px;
+    background-color: #fff;
+    box-shadow: darkgrey;
+
+}
+.content{
+    float: left;
+    width: 55%;
+    height: 600px;
+    /* background-color: lightsteelblue; */
+    margin-left: 60px;
+}
+.first{
+    /* display :inline-block; */
+    margin-top: 5px;
+    float: left;
+    width: 30%;
+    height: 400px;
+    margin-left: 34px;
+    /* box-shadow: 15px rgb(220, 220, 220); */
+    box-shadow: 15px black;
+
+    /* background-color: red; */
+}
+.phone{
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 16px;
+    height: 30px;
+    font-size: medium;
+}
+.Vehicle{
+    margin-top: 10px;
+    margin-left: 21px;
+    border : 2px solid black;
+    width: 25%;
+    background-color: white;
+    text-align: center;
+}
+.car{
+    margin-left: 1px;
+}
+.started{
+    margin-left: 16px;
+    margin-top: 25px;
+    /* margin-right: 30px; */
+    width: 80%;
+    height: 40px;
+    background-color:rgb(0, 175, 181);
+    text-align: center;
+    font-size: medium;
+}
+
+.col{
+    float: left;
+    width: 45%;
+    /* margin-left: 60px; */
+    margin: 13px;
+}
+
+.img{
+    width: 30px;
+}
+
+#img1{
+    width: 52px;
+}
+#img2{
+    width: 78px;
+}
+#img3{
+    width: 70px;
+}
+#img4{
+    width: 70px;
+}
