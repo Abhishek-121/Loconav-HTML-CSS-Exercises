@@ -78,10 +78,10 @@ p{
     font-size: 2;
 }
 
-a {
+a{
     text-decoration: none;
     color: rgb(55, 123, 181);
-  }
+}
 
 .col{
     float: left;
