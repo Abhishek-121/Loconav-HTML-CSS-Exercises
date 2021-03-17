@@ -1,110 +1,107 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
-body{
-    text-align: center;
-    font-family: 'Raleway', sans-serif;  
+body {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
 }
 
-p{
-    color: grey;
-    font-size: 18px;
+p {
+	color: grey;
+	font-size: 18px;
 }
 
-.row{
-    float: left;
-    margin: 68px;
-    background-color: #fff;
+.row {
+	float: left;
+	margin: 68px;
+	background-color: #fff;
 }
 
-.content{
-    float: left;
-    width: 60%;
-    margin-left: 60px;
+.content {
+	float: left;
+	width: 60%;
+	margin-left: 60px;
 }
 
-.first{
-    margin-top: 5px;
-    float: left;
-    width: 30%;
-    height: 465px;
-    margin-left: 34px;
-    box-shadow: 0px 0px 40px 2px rgba(0, 0, 0, .3);
+.first {
+	margin-top: 5px;
+	float: left;
+	width: 30%;
+	height: 465px;
+	margin-left: 34px;
+	box-shadow: 0px 0px 40px 2px rgba(0, 0, 0, .3);
 }
 
-.common{
-    width: 80%;
-    margin-top: 30px;
-    margin-left: 16px;
-    height: 30px;
-    font-size: medium;
-    text-align: center;
+.common {
+	width: 80%;
+	margin-top: 30px;
+	margin-left: 16px;
+	height: 30px;
+	font-size: medium;
+	text-align: center;
 }
 
-.vehicle{
-    margin: 10px 0px 0px 0px;
-    border: 1px solid grey;
-    width: 25%;
-    background-color: white;
-    text-align: center;
-    color: grey;
+.vehicle {
+	margin: 10px 0px 0px 0px;
+	border: 1px solid grey;
+	width: 25%;
+	background-color: white;
+	text-align: center;
+	color: grey;
 }
 
 .input-field {
-    padding: 15px 16px;
-    margin: 10px 40px;
-    width: 265px;
-    height: 19px;
-    font-size: 16px;
-    border: 1px solid rgb(225, 225, 225);
-  }
-
-.vehicle-selection{
-    margin-left: -160px;
+	padding: 15px 16px;
+	margin: 10px 40px;
+	width: 265px;
+	height: 19px;
+	font-size: 16px;
+	border: 1px solid rgb(225, 225, 225);
 }
 
-#car,#others{
-    margin-left: 1px;
+.vehicle-selection {
+	margin-left: -160px;
 }
 
-.started{
-    margin: 22px 0px 4px 10px;
-    width: 80%;
-    background-color:rgb(0, 175, 181);
-    text-align: center;
-    border: 0px;
-    border-radius: 5px;
-    height: 50px;
-    font-size: 20px;
-    color: white;
-    font-size: 2;
+#car,
+#others {
+	margin-left: 1px;
 }
 
-a{
-    text-decoration: none;
-    color: rgb(55, 123, 181);
+.started {
+	margin: 22px 0px 4px 10px;
+	width: 80%;
+	background-color: rgb(0, 175, 181);
+	text-align: center;
+	border: 0px;
+	border-radius: 5px;
+	height: 50px;
+	font-size: 20px;
+	color: white;
+	font-size: 2;
 }
 
-.col{
-    float: left;
-    width: 45%;
-    margin: 13px;
+a {
+	text-decoration: none;
+	color: rgb(55, 123, 181);
 }
 
-.img{
-    width: 30px;
+.col {
+	float: left;
+	width: 45%;
+	margin: 13px;
 }
 
-#img1{
-    width: 52px;
+.img {
+	width: 30px;
 }
 
-#img2{
-    width: 78px;
+#img1 {
+	width: 52px;
 }
 
-#img3{
-    width: 70px;
+#img2 {
+	width: 78px;
 }
 
-#img4{
-    width: 70px;
+#img3 ,#img4{
+	width: 70px;
 }
