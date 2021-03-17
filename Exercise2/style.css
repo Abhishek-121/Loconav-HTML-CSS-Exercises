@@ -3,6 +3,11 @@ body{
     font-family: 'Raleway';
 }
 
+p{
+    color: grey;
+    font-size: 20px;
+}
+
 .row{
     float: left;
     margin: 100px;
@@ -12,7 +17,7 @@ body{
 
 .content{
     float: left;
-    width: 55%;
+    width: 60%;
     height: 600px;
     margin-left: 60px;
 }
@@ -37,10 +42,11 @@ body{
 
 .vehicle{
     margin: 10px 0px 0px 21px;
-    border : 2px solid black;
+    border: 1px solid grey;
     width: 25%;
     background-color: white;
     text-align: center;
+    color: grey;
 }
 
 .car{
