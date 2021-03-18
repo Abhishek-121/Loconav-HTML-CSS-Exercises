@@ -1,52 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise 2</title>
+<html>
+  <head>
+    <title>Loconav</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-
-<body>
-    <div class="row">
-        <div class="column content">
-            <h2 style="text-align: center;">Why Loconav's Vehicle Tracking System?</h2> 
-            <div class="col">
-             <img src="ex2_intelligent_vehicle_tracking (1).png" class="img" id="img1">   
-            <h3>INTELLIGENT VEHICLE TRAINING </h3>
-            <p>Whether you are a single vehicle or a <a href="">fleet owner</a>, Loconav is determined to protect and monitor your assest from theft or harm.</p>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="row1">
+          <h1 id="h1">Why Loconav's Vehicle Tracking System?</h1>
         </div>
-        <div class="col">
-            <img src="ex2_vehicle_lock.png" class="img" id="img2">   
-            <h3>VEHICLE LOCK</h3>
-            <p>Turn on vehicle lock from Loconav's <a href="#">mobile app</a> and be assured that your vehicle won't start without your permission
-            </p>
+        <div class="row2">
+          <div id="box1" class="left_col">
+            <img id="img1" src="ex2_intelligent_vehicle_tracking (1).png">
+            <p class="common">INTELLIGENT VEHICLE TRACKING</p>
+            <p class="detail">Whether you are a single vehicle or a <a href="#">fleet owner</a>, Loconav is determined to protect and monitor your asset from theft or harm</p>
+          </div>
+          <div id="box2" class="right_col">
+            <img id="img2" src="ex2_vehicle_lock.png">
+            <p class="common">VEHICLE LOCK</p>
+            <p class="detail">Turn on vehicle lock from Loconav's <a href="#">mobile app</a> and be assured that your vehicle won't start without your permission</p>
+          </div>
         </div>
-        <div class="col">
-            <img src="ex2_live_alerts.png" class="img" id="img3">   
-            <h3>LIVE ALERTS</h3>
-            <p>Get the overspeeding alerts, alerts on entry and exits points, monitoring in real time etc. Vehicle services and management alerts.</p>
+        <div class="row3">
+          <div id="box3" class="left_col">
+            <img id="img3" src="ex2_live_alerts.png">
+            <p class="common">LIVE ALERTS</p>
+            <p class="detail">Get live over-speeding alerts, alerts on entry and exit points, montior idling in real time, etc. Vehicle services and maintenance alerts.</p>
+          </div>
+          <div id="box4" class="right_col">
+            <img id="img4" src="ex2_vehicle_health.png">
+            <p class="common">VEHICLE HEALTH</p>
+            <p class="detail">Get diagnostic, mileage and health report of your vehicle so that you can worry less about your vehicle's well being and enjoy your time on road</p>
+          </div>
         </div>
-        <div class="col">
-            <img src="ex2_vehicle_health.png" class="img" id="img4">   
-            <h3>VEHICLE HEALTH</h3>
-            <p>Get diagnostic, mileage and health report of your vehicle so that you can worry less about your vehicle's well-being and enjoy your time on road.</p>
-        </div>
-        </div>
-        <div class="column first">
-            <h2 style="text-align: center;"><b>Get an offer on your mobile</b></h2>
-            <input type="text" class ="common input-field" placeholder="Phone Number" required>
-            <input type="number" class ="common input-field" placeholder="How many Vehicles ?" required>
-            <br><br>
-            <label class="vehicle-selection">Select your Vehicle</label><br>
-            <button type="submit" class="common vehicle">Truck</button>
-            <button type="submit" class="common vehicle " id="car">Car</button>
-            <button type="submit" class="common vehicle " id="others">Others</button>
-            <button type="submit" class="started">Get Started</button>
-            <br><br>
-            Call us: +91 8448881414
-        </div>
+      </div>
+      <div class="right">
+        <form>
+          <p id="login_form">Get an offer on your mobile</p>
+          <input id="phone" type="text" name="phone" placeholder="Phone Number" class="input_field">
+          <br>
+          <input id="vehicles" type="number" name="num_vehicles" placeholder="How many vehicles?" class="input_field">
+          <br>
+          <p id="vehicle_selection">Select Your Vehicle</p>
+          <div id="choose">
+            <input type="radio" id="truck" name="vehicle" value="truck" class="veh_form">
+            <label class="opt" for="truck">Truck</label>
+            <input type="radio" id="car" name="vehicle" value="car" class="veh_form">
+            <label class="opt" for="car">Car</label>
+            <input type="radio" id="other" name="vehicle" value="other" class="veh_form">
+            <label class="opt" for="other">Others</label>
+          </div>
+          <br>
+          <button class="btn">GET STARTED</button>
+          <br>
+          <p id="call_us">Call us on +91 8448881414</p>
+        </form>
+      </div>
     </div>
-</body>
+  </body>
 </html>
